@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light only">
+<title>You're Not Lazy. Your Body Just Changed. | CitrusBurn Pro</title>
+<meta name="description" content="Why weight loss stops after 40 — and what 3,240+ women are using instead. No gym, no extreme diets. Real results in 8 weeks.">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:#FDF8F2; --surface:#fff; --s2:#FDF3E7; --s3:#F5EFE8;
+  --accent:#C8602A; --accent2:#E8874A; --accent-light:#FAEBD7;
+  --green:#3D6B4F; --green-light:#E8F0EB;
+  --red:#A83232; --red-light:#FAECEC;
+  --text:#1E1A17; --t2:#5A5047; --t3:#9A8F87;
+  --border:rgba(30,26,23,.1);
+  --shadow:0 4px 20px rgba(30,26,23,.08);
+  --gold:#B8860B; --gold-light:#FFF8E7;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html,body{background:var(--bg)!important;color:var(--text)!important;min-height:100vh}
+body{font-family:'DM Sans',sans-serif;font-size:15px;line-height:1.8;-webkit-font-smoothing:antialiased}
+
+/* ── BANNER ── */
+.banner{background:linear-gradient(135deg,#C8602A,#A84F22);color:#fff;text-align:center;padding:10px 1rem;font-size:12.5px;font-weight:500;position:sticky;top:0;z-index:200;display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap}
+.bpill{background:rgba(255,255,255,.2);border-radius:3px;padding:2px 10px;font-weight:700}
+#cd{font-weight:700;color:#FFE4C4}
+
+/* ── LAYOUT ── */
+.art{max-width:740px;margin:0 auto;padding:2.5rem 1.4rem 5rem}
+
+/* ── HERO ── */
+.hero-label{font-size:10px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);background:var(--accent-light);padding:5px 14px;border-radius:2px;display:inline-block;margin-bottom:1.4rem}
+h1{font-family:'Playfair Display',serif;font-size:clamp(2rem,5vw,3rem);font-weight:800;line-height:1.15;margin-bottom:1.2rem;letter-spacing:-.02em}
+.deck{font-size:1.05rem;color:var(--t2);margin-bottom:1.5rem;line-height:1.8;font-weight:300}
+.byline{font-size:12px;color:var(--t3);margin-bottom:1.5rem;display:flex;align-items:center;gap:10px}
+.byline img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:2px solid var(--accent-light)}
+
+/* ── SOCIAL PROOF BAR ── */
+.spb{background:var(--gold-light);border:1px solid rgba(184,134,11,.2);border-radius:8px;padding:11px 1.3rem;display:flex;align-items:center;gap:14px;margin-bottom:2rem;flex-wrap:wrap}
+.spb-stars{color:#F5A623;font-size:16px}
+.spb-txt{font-size:12.5px;color:var(--t2)}
+.spb-txt strong{color:var(--text)}
+.spb-avs{display:flex;margin-left:auto}
+.spb-av{width:28px;height:28px;border-radius:50%;border:2px solid white;margin-left:-8px;object-fit:cover}
+
+/* ── DIVIDER ── */
+hr{border:none;border-top:1px solid var(--border);margin:2rem 0}
+
+/* ── HEADINGS ── */
+h2{font-family:'DM Serif Display',serif;font-size:1.45rem;font-weight:400;margin:2.2rem 0 .8rem;line-height:1.3}
+h3{font-size:.95rem;font-weight:600;margin:1.2rem 0 .4rem}
+p{margin-bottom:1rem;color:var(--text)}
+.sub-intro{font-size:13.5px;color:var(--t2);margin-bottom:1rem}
+
+/* ── PULL QUOTE ── */
+.pull{font-family:'DM Serif Display',serif;font-style:italic;font-size:1.15rem;color:var(--t2);border-left:3px solid var(--accent2);padding:.6rem 0 .6rem 1.4rem;margin:1.8rem 0;line-height:1.65}
+
+/* ── STORY BOX ── */
+.storybox{background:var(--s2);border-radius:8px;padding:1.5rem 1.7rem;margin:1.5rem 0;border-left:4px solid var(--accent2)}
+.storybox .who{font-size:10px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:.6rem}
+.storybox p{font-family:'DM Serif Display',serif;font-style:italic;font-size:1.05rem;color:var(--t2);margin:0;line-height:1.75}
+.storybox strong{font-style:normal;font-size:12.5px;color:var(--accent)}
+
+/* ── IMAGES ── */
+.img-hero{width:100%;border-radius:12px;margin:1.2rem 0;box-shadow:var(--shadow);display:block}
+.img-caption{font-size:12px;color:var(--t3);text-align:center;margin-top:-.6rem;margin-bottom:1.2rem;font-style:italic}
+.img-ba-wrap{border-radius:12px;overflow:hidden;border:1px solid var(--border);box-shadow:var(--shadow);margin:1rem 0}
+.img-ba-wrap img{width:100%;display:block}
+.img-ba-footer{background:linear-gradient(135deg,var(--s2),var(--s3));padding:10px 16px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.img-ba-footer span{font-size:12.5px;color:var(--t2);font-style:italic}
+.img-ba-footer .badge-green{font-size:11px;font-weight:700;color:var(--green);background:var(--green-light);padding:3px 10px;border-radius:20px;white-space:nowrap}
+
+/* ── 3 COLS ── */
+.three-cols{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:1.2rem 0}
+.rcard{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:1.2rem;transition:transform .2s,box-shadow .2s}
+.rcard:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
+.rcard .num{font-family:'Playfair Display',serif;font-size:2rem;font-weight:700;color:var(--accent2);line-height:1;margin-bottom:4px}
+.rcard .rt{font-size:13px;font-weight:600;margin-bottom:5px}
+.rcard .rd{font-size:12px;color:var(--t2);line-height:1.65}
+
+/* ── CTA BUTTON ── */
+.cta{display:inline-block;background:var(--accent);color:#fff;padding:13px 1.8rem;border-radius:4px;font-size:13.5px;font-weight:600;text-decoration:none;letter-spacing:.02em;transition:background .2s,transform .15s,box-shadow .2s;box-shadow:0 4px 14px rgba(200,96,42,.32);font-family:'DM Sans',sans-serif}
+.cta:hover{background:#A84F22;transform:translateY(-1px);box-shadow:0 6px 20px rgba(200,96,42,.4)}
+.cta.block{display:block;text-align:center;padding:15px 2rem;font-size:14.5px}
+.cta.ghost{background:transparent;color:var(--accent);border:1.5px solid var(--accent);box-shadow:none}
+.cta.ghost:hover{background:var(--accent-light)}
+
+/* ── CTA BLOCK ── */
+.cta-block{background:linear-gradient(135deg,var(--s2),var(--s3));border:1px solid rgba(200,96,42,.2);border-radius:12px;padding:1.8rem 2rem 1.5rem;text-align:center;margin:2rem 0;position:relative;overflow:hidden}
+.cta-block::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--accent),var(--accent2))}
+.cta-block .cb-lbl{font-size:10px;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--t3);margin-bottom:.6rem}
+.cta-block p{font-size:13.5px;color:var(--t2);margin-bottom:1rem;line-height:1.75}
+.cta-block .sub{font-size:11px;color:var(--t3);margin-top:.7rem;margin-bottom:0}
+.ck{color:var(--green)}
+
+/* ── PRODUCT BADGE ── */
+.pbadge{display:inline-flex;align-items:center;gap:8px;background:white;border:1px solid rgba(200,96,42,.2);border-radius:6px;padding:6px 14px;margin-bottom:1rem;font-size:12px}
+.pbadge .pn{font-weight:700;color:var(--text)}
+.pbadge .ps{color:#F5A623;font-size:11px}
+.pbadge .pc{color:var(--t3);font-size:11px}
+
+/* ── INGREDIENT TABLE ── */
+.ingr-table{width:100%;border-collapse:collapse;font-size:13.5px;margin:1rem 0;table-layout:fixed}
+.ingr-table th{text-align:left;padding:10px 14px;background:var(--s3);font-weight:500;border-bottom:1px solid var(--border);font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:var(--t2)}
+.ingr-table td{padding:11px 14px;border-bottom:1px solid var(--border);vertical-align:top}
+.ingr-table tr:last-child td{border-bottom:none}
+.ingr-table td:first-child{font-weight:600;color:var(--accent);width:40%}
+
+/* ── STATS ROW ── */
+.srow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:1.2rem 0}
+.sbox{background:var(--s3);border-radius:8px;padding:.9rem;text-align:center}
+.sbox .val{font-family:'Playfair Display',serif;font-size:1.7rem;font-weight:700;color:var(--text)}
+.sbox .lbl{font-size:11px;color:var(--t3);margin-top:3px;line-height:1.4}
+
+/* ── COMPARE GRID ── */
+.cgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:1.2rem 0}
+.ccol{border-radius:8px;padding:1.2rem;border:1px solid var(--border)}
+.ccol.before{background:var(--red-light);border-color:#F5C5C5}
+.ccol.after{background:var(--green-light);border-color:#B8D4BF}
+.ccol .ch{font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;margin-bottom:10px}
+.ccol.before .ch{color:var(--red)}
+.ccol.after .ch{color:var(--green)}
+.ccol ul{list-style:none;padding:0}
+.ccol ul li{font-size:12.5px;padding:5px 0;display:flex;gap:8px;align-items:flex-start;border-bottom:1px solid var(--border)}
+.ccol ul li:last-child{border-bottom:none}
+.ccol ul li::before{content:'—';color:var(--red);font-weight:700;flex-shrink:0;margin-top:1px}
+.ccol.after ul li::before{content:'✓';color:var(--green)}
+
+/* ── TIMELINE ── */
+.timeline{margin:1.2rem 0;position:relative;padding-left:1.8rem;border-left:1.5px solid var(--border)}
+.tl-item{margin-bottom:1.5rem;position:relative}
+.tl-dot{width:10px;height:10px;border-radius:50%;background:var(--accent);position:absolute;left:-2.12rem;top:4px}
+.tl-week{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.1em;color:var(--accent);margin-bottom:3px}
+.tl-txt{font-size:13.5px;color:var(--t2);line-height:1.65}
+
+/* ── TESTIMONIALS ── */
+.tgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:1.5rem 0}
+.tcard{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:1.2rem 1.3rem;transition:box-shadow .2s}
+.tcard:hover{box-shadow:var(--shadow)}
+.tcard.feat{grid-column:1/-1;background:var(--s2);border-color:rgba(200,96,42,.2)}
+.tchead{display:flex;align-items:center;gap:10px;margin-bottom:.7rem}
+.tcav{width:40px;height:40px;border-radius:50%;object-fit:cover;flex-shrink:0;border:2px solid var(--accent-light)}
+.tcname{font-size:13px;font-weight:600;color:var(--text)}
+.tcmeta{font-size:11px;color:var(--t3)}
+.tcstars{color:#F5A623;font-size:12px;margin-bottom:.5rem;letter-spacing:1px}
+.tctxt{font-size:13px;color:var(--t2);line-height:1.7;font-style:italic}
+.tcbadge{display:inline-block;margin-top:.6rem;font-size:11px;font-weight:600;color:var(--green);background:var(--green-light);padding:3px 10px;border-radius:20px}
+.tcdate{font-size:11px;color:var(--t3);margin-top:.5rem}
+
+/* ── VIDEO CARDS ── */
+.vgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:1.5rem 0}
+.vcard{display:block;text-decoration:none;background:var(--surface);border:1px solid var(--border);border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(30,26,23,.06);transition:transform .2s,box-shadow .2s}
+.vcard:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(30,26,23,.12)}
+.vthumb{position:relative;overflow:hidden;background:#111}
+.vthumb img{width:100%;height:180px;object-fit:cover;display:block}
+.vplay{position:absolute;top:0;left:0;right:0;bottom:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.22)}
+.vplay-btn{width:56px;height:56px;background:rgba(200,96,42,.95);border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 16px rgba(0,0,0,.5)}
+.vbadge{position:absolute;top:8px;right:8px;background:rgba(0,0,0,.72);border-radius:4px;padding:3px 8px;color:white;font-size:10px;font-weight:600}
+.vcontent{padding:12px 14px 13px}
+.vcstars{color:#F5A623;font-size:12px;margin-bottom:4px}
+.vctxt{font-size:12.5px;color:var(--t2);margin:0 0 7px;line-height:1.6;font-style:italic}
+.vcfoot{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:5px}
+.vcname{font-size:11.5px;font-weight:600;color:var(--text)}
+.vcresult{font-size:11px;font-weight:600;color:var(--green);background:var(--green-light);padding:3px 9px;border-radius:20px}
+
+/* ── WHAT TO LOOK FOR ── */
+.wlgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:1.2rem 0}
+.wlcol{border-radius:8px;padding:1.2rem 1.3rem;border:1px solid var(--border)}
+.wlcol.good{background:var(--green-light);border-color:#B8D4BF}
+.wlcol.bad{background:var(--red-light);border-color:#F5C5C5}
+.wlh{font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;margin-bottom:10px}
+.wlcol.good .wlh{color:var(--green)}
+.wlcol.bad .wlh{color:var(--red)}
+.wlcol ul{list-style:none;padding:0}
+.wlcol ul li{font-size:12.5px;padding:5px 0;display:flex;gap:8px;align-items:flex-start;border-bottom:1px solid var(--border)}
+.wlcol ul li:last-child{border-bottom:none}
+.wlcol.good ul li::before{content:'✓';color:var(--green);flex-shrink:0}
+.wlcol.bad ul li::before{content:'×';color:var(--red);flex-shrink:0;font-weight:700}
+
+/* ── HABITS ── */
+.hlist{list-style:none;padding:0;margin:1rem 0}
+.hlist li{display:flex;align-items:flex-start;gap:14px;padding:12px 0;border-bottom:1px solid var(--border)}
+.hlist li:last-child{border-bottom:none}
+.hico{width:34px;height:34px;border-radius:8px;background:var(--accent-light);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:16px}
+.htxt strong{display:block;font-size:13.5px;font-weight:600;margin-bottom:2px}
+.htxt span{font-size:12px;color:var(--t2)}
+
+/* ── MISTAKES ── */
+.mistake{border:1px solid var(--border);border-radius:8px;padding:1.2rem 1.4rem;margin-bottom:10px;background:var(--surface)}
+.mistake .mt{font-size:13.5px;font-weight:600;margin-bottom:5px}
+.mistake .mt .badge{display:inline-block;font-size:10px;background:var(--red-light);color:var(--red);padding:2px 8px;border-radius:3px;margin-left:8px;font-weight:400;vertical-align:middle}
+.mistake .mb{font-size:13px;color:var(--t2);line-height:1.75;margin:0}
+
+/* ── GUARANTEE ── */
+.gbox{background:var(--green-light);border:2px solid var(--green);border-radius:12px;padding:2rem;text-align:center;margin:2rem 0}
+.gbox .gico{font-size:3rem;margin-bottom:.8rem}
+.gbox h2{font-family:'DM Serif Display',serif;font-size:1.5rem;color:var(--green);margin-bottom:.8rem}
+.gbox p{font-size:13.5px;color:#2c5940;line-height:1.8;margin-bottom:1.2rem}
+
+/* ── TRUST ROW ── */
+.trow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:1.2rem 0}
+.tbox{background:var(--s3);border-radius:8px;padding:1rem;text-align:center;border:1px solid var(--border)}
+.tbox .tv{font-family:'Playfair Display',serif;font-size:1.5rem;font-weight:700}
+.tbox .tl{font-size:11px;color:var(--t3);margin-top:3px}
+
+/* ── FAQ ── */
+.faq{border-bottom:1px solid var(--border);cursor:pointer;user-select:none}
+.faq-q{padding:1rem 1.2rem 1rem 0;font-size:14px;font-weight:600;display:flex;justify-content:space-between;align-items:center}
+.faq-q::after{content:'＋';font-size:1.2rem;color:var(--accent);flex-shrink:0;transition:transform .2s}
+.faq.open .faq-q::after{transform:rotate(45deg)}
+.faq-a{display:none;font-size:13px;color:var(--t2);line-height:1.8;padding:0 0 1rem}
+.faq.open .faq-a{display:block}
+
+/* ── PRICING BOX ── */
+.pbox{background:linear-gradient(135deg,#2c3e50,#1a252f);color:#fff;border-radius:16px;padding:2.5rem 2rem;text-align:center;margin:2rem 0;box-shadow:0 10px 40px rgba(0,0,0,.25)}
+.pbox h2{font-family:'Playfair Display',serif;font-size:1.8rem;margin-bottom:.8rem}
+.pbox .po{font-size:1rem;opacity:.7;text-decoration:line-through;margin-bottom:.3rem}
+.pbox .ps-price{font-family:'Playfair Display',serif;font-size:4rem;font-weight:800;color:#FFE4C4;line-height:1;margin:.5rem 0}
+.pbox .psave{display:inline-block;background:rgba(200,96,42,.9);color:#fff;font-size:13px;font-weight:600;padding:5px 16px;border-radius:20px;margin-bottom:1.2rem}
+.pbox .daily{font-size:13px;opacity:.85;margin-bottom:1.5rem}
+.pbox .daily strong{color:#FFE4C4}
+.plist{text-align:left;max-width:360px;margin:0 auto 1.5rem;list-style:none;padding:0}
+.plist li{padding:7px 0;font-size:13.5px;border-bottom:1px solid rgba(255,255,255,.1)}
+.plist li:last-child{border-bottom:none}
+.plist li::before{content:'✓ ';color:#FFE4C4;font-weight:700}
+
+/* ── SCARCITY ── */
+.scarcity{background:var(--gold-light);border:1.5px solid rgba(184,134,11,.3);border-radius:8px;padding:1rem 1.3rem;display:flex;align-items:center;gap:12px;margin:1.2rem 0;font-size:13px}
+.scarcity strong{color:var(--gold)}
+
+/* ── STICKY CTA ── */
+.sticky-cta{display:none;position:fixed;bottom:0;left:0;right:0;background:white;border-top:1px solid var(--border);padding:11px 1.4rem;z-index:99;box-shadow:0 -4px 20px rgba(30,26,23,.12)}
+
+/* ── EXIT POPUP ── */
+#exit-popup{display:none;position:fixed;top:0;left:0;right:0;bottom:0;z-index:9999;background:rgba(0,0,0,.65);align-items:center;justify-content:center;padding:1rem}
+.ep-box{background:var(--bg);border-radius:16px;max-width:460px;width:100%;padding:2rem 1.8rem 1.6rem;position:relative;box-shadow:0 20px 60px rgba(0,0,0,.4);text-align:center}
+.ep-close{position:absolute;top:12px;right:16px;background:none;border:none;font-size:22px;color:var(--t3);cursor:pointer;line-height:1}
+.ep-box h3{font-family:'Playfair Display',serif;font-size:1.5rem;font-weight:800;margin:.6rem 0 .5rem;line-height:1.25}
+.ep-price{background:linear-gradient(135deg,var(--s2),var(--s3));border:1px solid rgba(200,96,42,.25);border-radius:10px;padding:1rem 1.2rem;margin:1rem 0 1.2rem}
+.ep-price .ep-save{font-size:11px;color:var(--t3);text-transform:uppercase;letter-spacing:.1em;margin-bottom:.4rem}
+.ep-price .ep-nums{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap}
+.ep-price .ep-old{font-size:1rem;color:var(--t3);text-decoration:line-through}
+.ep-price .ep-new{font-family:'Playfair Display',serif;font-size:2.2rem;font-weight:800;color:var(--accent)}
+.ep-price .ep-badge{font-size:12px;color:var(--green);background:var(--green-light);padding:4px 10px;border-radius:20px;font-weight:600}
+.ep-price .ep-daily{font-size:12px;color:var(--t2);margin-top:.5rem}
+.ep-price .ep-daily strong{color:var(--accent)}
+
+/* ── DISCLAIMER ── */
+.disclaimer{font-size:11px;color:var(--t3);text-align:center;margin-top:2rem;line-height:1.8;border-top:1px solid var(--border);padding-top:1.3rem}
+
+@media(max-width:540px){
+  .three-cols,.srow,.trow{grid-template-columns:1fr 1fr}
+  .cgrid,.wlgrid,.tgrid{grid-template-columns:1fr}
+  .tcard.feat{grid-column:1}
+  .vgrid{grid-template-columns:1fr}
+  .sticky-cta{display:block}
+  .spb-avs{display:none}
+  h1{font-size:1.75rem}
+}
+</style>
+</head>
+<body>
+
+<!-- ── BANNER ── -->
+<div class="banner">
+  🔥 Limited-time offer active —
+  <span class="bpill">Save $40 Today</span>
+  Expires in <span id="cd">23:59:59</span>
+  <span style="opacity:.55;font-size:10.5px">· Free shipping · 60-day guarantee</span>
+</div>
+
+<!-- ── EXIT POPUP ── -->
+<div id="exit-popup">
+  <div class="ep-box">
+    <button class="ep-close" onclick="closePopup()">×</button>
+    <div style="font-size:2.5rem">⏳</div>
+    <h3>Wait — Don't Leave Yet!</h3>
+    <p style="font-size:13.5px;color:var(--t2);line-height:1.7">Thousands of women over 40 felt exactly like you — until they tried CitrusBurn Pro for the full 8 weeks.</p>
+    <div class="ep-price">
+      <div class="ep-save">Today's Special Offer</div>
+      <div class="ep-nums">
+        <span class="ep-old">$89</span>
+        <span class="ep-new">$49</span>
+        <span class="ep-badge">Save $40</span>
+      </div>
+      <div class="ep-daily">That's less than <strong>$1.63/day</strong> — less than your morning coffee ☕</div>
+    </div>
+    <a href="https://c2e1b6kyw26h873-kgyq-40iza.hop.clickbank.net" rel="nofollow sponsored" target="_blank"
+       onclick="closePopup()"
+       style="display:block;background:var(--accent);color:#fff;padding:14px 1.5rem;border-radius:6px;font-size:14px;font-weight:700;text-decoration:none;box-shadow:0 4px 16px rgba(200,96,42,.4);margin-bottom:.8rem;">
+      Claim My $40 Discount → Try Risk-Free
+    </a>
+    <button onclick="closePopup()" style="background:none;border:none;font-size:11.5px;color:var(--t3);cursor:pointer;text-decoration:underline">No thanks, I'll pay full price later</button>
+    <p style="font-size:10.5px;color:var(--t3);margin-top:.6rem;margin-bottom:0">✓ 60-day money-back guarantee · ✓ Free shipping</p>
+  </div>
+</div>
+
+<div class="art">
+
+  <!-- ── HERO ── -->
+  <span class="hero-label">Women's Health · Over 40 · Updated 2025</span>
+  <h1>You're Not Lazy.<br>Your Body Just Changed.</h1>
+  <p class="deck">Eating better, walking more, cutting carbs — and the scale doesn't move. After 40, your body runs on completely different rules. Here's what's actually happening, and what finally works.</p>
+
+  <div class="byline">
+    <img src="https://i.imgur.com/wzcFyJB.jpg" alt="Sarah M.">
+    By Sarah M. · Women's Health Writer · 8 min read · Fact-checked
+  </div>
+
+  <!-- ── SOCIAL PROOF BAR ── -->
+  <div class="spb">
+    <div>
+      <div class="spb-stars">★★★★★</div>
+      <div class="spb-txt"><strong>4.8/5</strong> — from 3,240+ verified women over 40</div>
+    </div>
+    <div class="spb-avs">
+      <img src="https://i.imgur.com/HgAGUdW.jpg" alt="Linda" class="spb-av">
+      <img src="https://i.imgur.com/DI0iG5a.jpg" alt="Jennifer" class="spb-av">
+      <img src="https://i.imgur.com/KFnnsOq.jpg" alt="Rachel" class="spb-av">
+      <img src="https://i.imgur.com/3DWinlb.jpg" alt="Anne" class="spb-av">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- ── BEFORE / AFTER ── -->
+  <h2>Real Women. Real Results.</h2>
+  <p class="sub-intro">With permission from our customers — real transformations from women who committed to the full 8-week protocol.</p>
+
+  <div class="img-ba-wrap">
+    <img src="https://i.imgur.com/NvDJeQS.jpg" alt="Real weight loss transformation — CitrusBurn Pro customer result">
+    <div class="img-ba-footer">
+      <span>"I never thought I'd see numbers like this on the scale again."</span>
+      <span class="badge-green">✓ Lost 34kg total</span>
+    </div>
+  </div>
+
+  <div class="img-ba-wrap">
+    <img src="https://i.imgur.com/8GsyrJ4.jpg" alt="Before and after weight loss result — verified customer">
+    <div class="img-ba-footer" style="background:linear-gradient(135deg,var(--green-light),#d4e8d9)">
+      <span>"8 weeks. No extreme diets. This is what consistency looks like."</span>
+      <span class="badge-green">✓ Verified customer</span>
+    </div>
+  </div>
+
+  <!-- CTA 1 -->
+  <div class="cta-block">
+    <div class="cb-lbl">Recommended formula</div>
+    <div class="pbadge">
+      <span class="pn">CitrusBurn Pro</span>
+      <span class="ps">★★★★★</span>
+      <span class="pc">4.8 · 3,240 verified reviews</span>
+    </div>
+    <p>These women started exactly where you are. The only difference is they took the first step.</p>
+    <a href="https://c2e1b6kyw26h873-kgyq-40iza.hop.clickbank.net" rel="nofollow sponsored" target="_blank" class="cta block">I Want Results Like These → Try CitrusBurn Pro</a>
+    <p class="sub"><span class="ck">✓</span> 60-day guarantee &nbsp;<span class="ck">✓</span> Free shipping &nbsp;<span class="ck">✓</span> Individual results vary</p>
+  </div>
+
+  <hr>
+
+  <!-- ── STORY ── -->
+  <div class="storybox">
+    <div class="who">Sarah's story · Columbus, Ohio</div>
+    <p>"My daughter's wedding was in 6 months. I couldn't fit into anything I owned. Three years of clean eating, morning walks, cutting carbs. The belly fat stayed. The energy stayed low. I thought I was broken — until I understood it was never about trying harder."<br><br><strong>— Sarah, 44, working mom · Columbus, Ohio</strong></p>
+  </div>
+
+  <p>What Sarah eventually discovered — and what most women never hear — is that weight loss after 40 is not a willpower problem. It's a biology problem. And biology responds to the right approach, not more effort.</p>
+
+  <hr>
+
+  <!-- ── WHY BODY STOPPED ── -->
+  <h2>Why Your Body Stopped Cooperating</h2>
+  <p class="sub-intro">Three things happen simultaneously after 40, creating the perfect fat-storing environment. None of them are your fault.</p>
+
+  <div class="three-cols">
+    <div class="rcard">
+      <div class="num">01</div>
+      <div class="rt">Estrogen drops</div>
+      <div class="rd">Fat migrates from hips to abdomen — harder to lose, higher health risk. Biological, not cosmetic.</div>
+    </div>
+    <div class="rcard">
+      <div class="num">02</div>
+      <div class="rt">Muscle disappears</div>
+      <div class="rd">Less muscle = slower metabolism = faster fat gain — even eating the same amount as before.</div>
+    </div>
+    <div class="rcard">
+      <div class="num">03</div>
+      <div class="rt">Cortisol rises</div>
+      <div class="rd">High cortisol = more belly fat, stronger cravings, worse sleep. No amount of cardio overrides it.</div>
+    </div>
+  </div>
+
+  <div class="pull">"Diets were designed for a younger hormonal environment. Your body at 40+ needs a strategy that works with your hormones — not against them."</div>
+
+  <hr>
+
+  <!-- ── SCIENCE / INGREDIENTS ── -->
+  <h2>The Science Behind It — What Actually Works After 40</h2>
+  <p class="sub-intro">These compounds appear in peer-reviewed research and work specifically for the hormonal environment after 40.</p>
+
+  <table class="ingr-table">
+    <thead><tr><th>Ingredient</th><th>Research-backed benefit</th></tr></thead>
+    <tbody>
+      <tr><td>Citrus bioflavonoids</td><td>Fat oxidation & liver detox — uniquely effective post-perimenopause (PubMed 2019)</td></tr>
+      <tr><td>Green tea EGCG</td><td>Boosts resting metabolism 4–5% — cited in 200+ PubMed studies</td></tr>
+      <tr><td>Ginger root</td><td>Reduces cortisol, lowers inflammation, improves digestion</td></tr>
+      <tr><td>Magnesium</td><td>Regulates sleep, hormonal balance, and resting metabolic rate</td></tr>
+      <tr><td>Vitamin C from citrus</td><td>Directly linked to fat oxidation during physical activity</td></tr>
+    </tbody>
+  </table>
+
+  <p><a href="https://c2e1b6kyw26h873-kgyq-40iza.hop.clickbank.net" rel="nofollow sponsored" target="_blank" class="cta ghost">See the full CitrusBurn Pro formula & lab results →</a></p>
+
+  <hr>
+
+  <!-- ── COMPARISON TABLE ── -->
+  <h2>How CitrusBurn Pro Compares</h2>
+  <table class="ingr-table" style="table-layout:auto">
+    <thead><tr><th>Feature</th><th>CitrusBurn Pro</th><th>Generic</th><th>Diet Pills</th></tr></thead>
+    <tbody>
+      <tr><td>Designed for women 40+</td><td style="color:var(--green);font-weight:700">✓</td><td style="color:var(--red)">✗</td><td style="color:var(--red)">✗</td></tr>
+      <tr><td>Hormone-compatible formula</td><td style="color:var(--green);font-weight:700">✓</td><td style="color:var(--red)">✗</td><td style="color:var(--red)">✗</td></tr>
+      <tr><td>Peer-reviewed ingredients</td><td style="color:var(--green);font-weight:700">✓</td><td style="color:var(--t3)">~</td><td style="color:var(--red)">✗</td></tr>
+      <tr><td>Transparent label</td><td style="color:var(--green);font-weight:700">✓</td><td style="color:var(--t3)">~</td><td style="color:var(--red)">✗</td></tr>
+      <tr><td>Stimulant-free</td><td style="color:var(--green);font-weight:700">✓</td><td style="color:var(--t3)">~</td><td style="color:var(--red)">✗</td></tr>
+      <tr><td>60-day money-back</td><td style="color:var(--green);font-weight:700">✓</td><td style="color:var(--red)">✗</td><td style="color:var(--red)">✗</td></tr>
+      <tr><td>Free shipping</td><td style="color:var(--green);font-weight:700">✓</td><td style="color:var(--red)">✗</td><td style="color:var(--red)">✗</td></tr>
+    </tbody>
+  </table>
+
+  <hr>
+
+  <!-- ── MORNING RITUAL ── -->
+  <h2>The 2-Minute Morning Ritual</h2>
+  <p class="sub-intro">A simple citrus metabolism drink — a warm morning ritual that creates a powerful daily metabolic signal from minute one.</p>
+
+  <img src="https://i.imgur.com/TgUAa6e.jpg" alt="Citrus morning ritual — lemon, orange, ginger, warm water" class="img-hero">
+  <p class="img-caption">The 4-ingredient morning drink that kickstarts fat metabolism from the first hour</p>
+
+  <ul class="hlist">
+    <li><div class="hico">🍋</div><div class="htxt"><strong>Juice of 1 fresh lemon</strong><span>Vitamin C triggers fat oxidation in the first hour of the day</span></div></li>
+    <li><div class="hico">🍊</div><div class="htxt"><strong>2–3 orange slices</strong><span>Citrus bioflavonoids — most underrated fat-loss compound for women 40+</span></div></li>
+    <li><div class="hico">🫚</div><div class="htxt"><strong>Small piece of fresh ginger</strong><span>Cortisol reduction — directly lowers the hormone that stores belly fat</span></div></li>
+    <li><div class="hico">💧</div><div class="htxt"><strong>Warm water (not boiling)</strong><span>Activates the compounds without destroying their potency</span></div></li>
+  </ul>
+
+  <p style="font-size:13px;color:var(--t2)">This ritual works. But food-based citrus simply can't match the therapeutic concentrations in CitrusBurn Pro. Combining both is what produces the results women are actually reporting.</p>
+  <p><a href="https://c2e1b6kyw26h873-kgyq-40iza.hop.clickbank.net" rel="nofollow sponsored" target="_blank" class="cta ghost">See how CitrusBurn Pro amplifies this ritual →</a></p>
+
+  <hr>
+
+  <!-- ── SARAH'S TIMELINE ── -->
+  <h2>Sarah's 8-Week Timeline</h2>
+  <p class="sub-intro">No gym. No dramatic diet change. Just the morning ritual and CitrusBurn Pro.</p>
+
+  <div class="srow">
+    <div class="sbox"><div class="val">7kg</div><div class="lbl">total lost</div></div>
+    <div class="sbox"><div class="val">8 wks</div><div class="lbl">timeline</div></div>
+    <div class="sbox"><div class="val">Wk 3</div><div class="lbl">energy shift</div></div>
+    <div class="sbox"><div class="val">0</div><div class="lbl">gym sessions</div></div>
+  </div>
+
+  <div class="cgrid">
+    <div class="ccol before">
+      <div class="ch">Week 1 — Before</div>
+      <ul>
+        <li>Exhausted despite 7+ hours sleep</li>
+        <li>Bloated every single morning</li>
+        <li>Strong afternoon cravings</li>
+        <li>Scale completely stuck for months</li>
+        <li>Hiding from photos</li>
+      </ul>
+    </div>
+    <div class="ccol after">
+      <div class="ch">Week 8 — After</div>
+      <ul>
+        <li>Real energy back by week 3</li>
+        <li>Belly noticeably flatter</li>
+        <li>Cravings quiet and manageable</li>
+        <li>Down 7kg, mostly from belly</li>
+        <li>Front and center in photos</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="timeline">
+    <div class="tl-item"><div class="tl-dot"></div><div class="tl-week">Weeks 1–2</div><div class="tl-txt">Body adapting. Bloating reduced slightly. Energy still low — normal. The compound effect is building silently.</div></div>
+    <div class="tl-item"><div class="tl-dot"></div><div class="tl-week">Week 3</div><div class="tl-txt">Energy shift. Afternoon cravings quieter. "I felt like myself again for the first time in years."</div></div>
+    <div class="tl-item"><div class="tl-dot"></div><div class="tl-week">Weeks 5–6</div><div class="tl-txt">Visible changes. Clothes fitting differently. Belly noticeably flatter. Scale moving consistently.</div></div>
+    <div class="tl-item"><div class="tl-dot"></div><div class="tl-week">Week 8</div><div class="tl-txt">Down 7kg. She wore the dress at her daughter's wedding. "For the first time in years, I wasn't hiding from the camera."</div></div>
+  </div>
+
+  <!-- CTA 2 -->
+  <div class="cta-block">
+    <div class="cb-lbl">Start your 8 weeks</div>
+    <p>Week 1 and 2 feel slow. Week 8 changes everything. The compound effect is real — but only if you start.</p>
+    <a href="https://c2e1b6kyw26h873-kgyq-40iza.hop.clickbank.net" rel="nofollow sponsored" target="_blank" class="cta block">Yes! I Want to Start My 8-Week Transformation →</a>
+    <p class="sub"><span class="ck">✓</span> Join 3,240+ women over 40 &nbsp;<span class="ck">✓</span> 60-day guarantee</p>
+  </div>
+
+  <hr>
+
+  <!-- ── VIDEO TESTIMONIALS ── -->
+  <h2>What Women Over 40 Are Saying</h2>
+  <p class="sub-intro">Real women. Real voices. Watch her full story below.</p>
+
+  <div style="max-width:640px;margin:1.5rem auto;border-radius:12px;overflow:hidden;box-shadow:0 8px 32px rgba(0,0,0,.18)">
+    <script>!function(r,u,m,b,l,e){r._Rumble=b,r[b]||(r[b]=function(){(r[b]._=r[b]._||[]).push(arguments);if(r[b]._.length==1){l=u.createElement(m),e=u.getElementsByTagName(m)[0],l.async=1,l.src="https://rumble.com/embedJS/ub3ewy"+(arguments[1].video?'.'+arguments[1].video:'')+"/?url="+encodeURIComponent(location.href)+"&args="+encodeURIComponent(JSON.stringify([].slice.apply(arguments))),e.parentNode.insertBefore(l,e)}})}(window, document, "script", "Rumble");</script>
+    <div id="rumble_v76upus"></div>
+    <script>Rumble("play", {"video":"v76upus","div":"rumble_v76upus"});</script>
+  </div>
+
+  <!-- ── WRITTEN TESTIMONIALS ── -->
+  <div class="tgrid">
+    <div class="tcard feat">
+      <div class="tchead">
+        <img src="https://i.imgur.com/HgAGUdW.jpg" alt="Linda M." class="tcav">
+        <div><div class="tcname">Linda M.</div><div class="tcmeta">Age 52 · Phoenix, AZ · ✓ Verified</div></div>
+      </div>
+      <div class="tcstars">★★★★★</div>
+      <p class="tctxt">"I tried everything for 4 years. Keto, intermittent fasting, a personal trainer twice a week — nothing touched my belly fat after menopause. By week 3 of CitrusBurn Pro I had more energy than I'd had in years. By week 7, I was down 6kg. I cried. I genuinely cried."</p>
+      <div class="tcbadge">✓ Lost 6kg in 7 weeks</div>
+      <div class="tcdate">Purchased March 2025</div>
+    </div>
+    <div class="tcard">
+      <div class="tchead">
+        <img src="https://i.imgur.com/DI0iG5a.jpg" alt="Jennifer T." class="tcav">
+        <div><div class="tcname">Jennifer T.</div><div class="tcmeta">Age 46 · Atlanta, GA</div></div>
+      </div>
+      <div class="tcstars">★★★★★</div>
+      <p class="tctxt">"The bloating I had accepted as 'just how I am now' disappeared in 2 weeks. Down 4.5kg — and I haven't stepped in a gym once."</p>
+      <div class="tcbadge">✓ Lost 4.5kg, no gym</div>
+      <div class="tcdate">Purchased February 2025</div>
+    </div>
+    <div class="tcard">
+      <div class="tchead">
+        <img src="https://i.imgur.com/KFnnsOq.jpg" alt="Rachel K." class="tcav">
+        <div><div class="tcname">Rachel K.</div><div class="tcmeta">Age 49 · Denver, CO</div></div>
+      </div>
+      <div class="tcstars">★★★★★</div>
+      <p class="tctxt">"No jitters, no crashes. Steady energy and cravings finally calmed. I was skeptical — I've been burned before. This was different. 5kg gone in 6 weeks."</p>
+      <div class="tcbadge">✓ Lost 5kg in 6 weeks</div>
+      <div class="tcdate">Purchased January 2025</div>
+    </div>
+    <div class="tcard">
+      <div class="tchead">
+        <img src="https://i.imgur.com/3DWinlb.jpg" alt="Anne S." class="tcav">
+        <div><div class="tcname">Anne S.</div><div class="tcmeta">Age 44 · Chicago, IL</div></div>
+      </div>
+      <div class="tcstars">★★★★★</div>
+      <p class="tctxt">"My doctor noticed my energy improvement before I mentioned the supplement. Sleep better by week 2. Belly moving by week 5. First thing that worked with my body."</p>
+      <div class="tcbadge">✓ Lost 5.5kg + better sleep</div>
+      <div class="tcdate">Purchased December 2024</div>
+    </div>
+  </div>
+
+  <div class="scarcity">
+    <span style="font-size:20px">⏳</span>
+    <div><strong>High demand alert:</strong> CitrusBurn Pro stock changes daily due to demand.
+    <a href="https://c2e1b6kyw26h873-kgyq-40iza.hop.clickbank.net" rel="nofollow sponsored" target="_blank" style="color:var(--accent);font-weight:600;text-decoration:none;margin-left:6px">Check availability →</a></div>
+  </div>
+
+  <hr>
+
+  <!-- ── PRODUCT + TRUST ── -->
+  <h2>CitrusBurn Pro</h2>
+  <p class="sub-intro">Formulated specifically for women's biology after 40 — hormone-compatible, stimulant-free, fully transparent.</p>
+
+  <img src="https://i.imgur.com/eB0BKhF.jpg" alt="CitrusBurn Pro supplement — natural fat burner for women over 40" class="img-hero">
+
+  <img src="https://i.imgur.com/zlqNI8u.jpg" alt="CitrusBurn Pro — GMP Certified, FDA Registered, Made in USA, Lab Tested" class="img-hero" style="margin-top:.5rem">
+
+  <hr>
+
+  <!-- ── WHAT TO LOOK FOR ── -->
+  <h2>What to Look For — And What to Avoid</h2>
+  <div class="wlgrid">
+    <div class="wlcol good">
+      <div class="wlh">Look for this</div>
+      <ul>
+        <li>Citrus bioflavonoids as core ingredient</li>
+        <li>Green tea EGCG — peer-reviewed</li>
+        <li>Fully transparent label</li>
+        <li>Built for women 40+</li>
+        <li>Realistic 6–8 week timeline</li>
+        <li>Money-back guarantee</li>
+      </ul>
+    </div>
+    <div class="wlcol bad">
+      <div class="wlh">Avoid this</div>
+      <ul>
+        <li>"Rapid fat loss in 72 hours"</li>
+        <li>High-dose synephrine or yohimbine</li>
+        <li>Proprietary blends hiding dosages</li>
+        <li>Requires extreme dieting</li>
+        <li>Generic formulas for all ages</li>
+        <li>No return policy</li>
+      </ul>
+    </div>
+  </div>
+
+  <p><a href="https://c2e1b6kyw26h873-kgyq-40iza.hop.clickbank.net" rel="nofollow sponsored" target="_blank" class="cta ghost">See why CitrusBurn Pro meets every criterion →</a></p>
+
+  <hr>
+
+  <!-- ── 5 HABITS ── -->
+  <h2>5 Habits That Amplify Every Result</h2>
+  <ul class="hlist">
+    <li><div class="hico">💪</div><div class="htxt"><strong>Strength training 2–3× per week</strong><span>Even 20 minutes rebuilds the metabolic engine cardio alone can't touch.</span></div></li>
+    <li><div class="hico">🥚</div><div class="htxt"><strong>30g protein at breakfast</strong><span>The single most powerful craving-reduction strategy — stabilizes blood sugar all day.</span></div></li>
+    <li><div class="hico">😴</div><div class="htxt"><strong>7–8 hours of quality sleep</strong><span>Non-negotiable for cortisol control. The foundation everything else builds on.</span></div></li>
+    <li><div class="hico">🍋</div><div class="htxt"><strong>Morning citrus ritual</strong><span>Your daily metabolic signal from the first minutes of the day.</span></div></li>
+    <li><div class="hico">📅</div><div class="htxt"><strong>CitrusBurn Pro — full 8 weeks</strong><span>The compound effect is real. Don't stop before it arrives. <a href="https://c2e1b6kyw26h873-kgyq-40iza.hop.clickbank.net" rel="nofollow sponsored" target="_blank" style="color:var(--accent);text-decoration:none">Start here →</a></span></div></li>
+  </ul>
+
+  <hr>
+
+  <!-- ── 3 MISTAKES ── -->
+  <h2>3 Mistakes Keeping Women Stuck</h2>
+  <div class="mistakes" style="margin:1rem 0">
+    <div class="mistake">
+      <div class="mt">Eating less and moving more <span class="badge">Most common</span></div>
+      <div class="mb">Cutting calories aggressively signals famine. Your body holds fat harder. Women over 40 need to nourish their metabolism — not restrict it into submission.</div>
+    </div>
+    <div class="mistake">
+      <div class="mt">Doing only cardio</div>
+      <div class="mb">Cardio burns calories now. Strength training builds the fat-burning engine that works around the clock. Two 20-minute sessions per week creates a measurable difference.</div>
+    </div>
+    <div class="mistake">
+      <div class="mt">Quitting before the compound effect <span class="badge">Biggest mistake</span></div>
+      <div class="mb">The women who see dramatic transformations commit to the full 8 weeks. Those who stop at day 10 never see what their body was about to do. <a href="https://c2e1b6kyw26h873-kgyq-40iza.hop.clickbank.net" rel="nofollow sponsored" target="_blank" style="color:var(--accent);text-decoration:none">Start your 8 weeks →</a></div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- ── PRICING ── -->
+  <div class="pbox" id="order">
+    <h2>Ready to Start?</h2>
+    <div class="po">Regular price: $89</div>
+    <div class="ps-price">$49</div>
+    <div class="psave">Save $40 — Today Only</div>
+    <div class="daily">That's less than <strong>$1.63 per day</strong> — less than a coffee ☕</div>
+    <ul class="plist">
+      <li>Hormone-compatible formula for women 40+</li>
+      <li>60-day money-back guarantee — no questions asked</li>
+      <li>Free shipping on all orders</li>
+      <li>GMP Certified · FDA Registered · Made in USA</li>
+      <li>Stimulant-free · No jitters · No crashes</li>
+    </ul>
+    <a href="https://c2e1b6kyw26h873-kgyq-40iza.hop.clickbank.net" rel="nofollow sponsored" target="_blank"
+       style="display:block;background:linear-gradient(135deg,#f39c12,#e67e22);color:#fff;padding:16px 2rem;border-radius:50px;font-size:15px;font-weight:700;text-decoration:none;box-shadow:0 6px 20px rgba(243,156,18,.4);margin-bottom:1rem;">
+      Yes! I Want to Try CitrusBurn Pro Risk-Free →
+    </a>
+    <div style="opacity:.8;font-size:12px">✓ Secure checkout &nbsp;·&nbsp; ✓ 256-bit SSL &nbsp;·&nbsp; ✓ 60-day refund</div>
+  </div>
+
+  <!-- ── GUARANTEE ── -->
+  <div class="gbox">
+    <div class="gico">🛡️</div>
+    <h2>60-Day Money-Back Guarantee</h2>
+    <p>Try CitrusBurn Pro for a full 60 days. If you don't see real results — for any reason — contact support for a complete refund. No questions asked. No forms to fill. You risk absolutely nothing. The only thing you have to lose is the weight.</p>
+    <a href="https://c2e1b6kyw26h873-kgyq-40iza.hop.clickbank.net" rel="nofollow sponsored" target="_blank" class="cta" style="background:var(--green);box-shadow:0 4px 14px rgba(61,107,79,.4)">Start Now Risk-Free →</a>
+  </div>
+
+  <div class="trow">
+    <div class="tbox"><div class="tv">8 wks</div><div class="tl">average to full results</div></div>
+    <div class="tbox"><div class="tv">3,240+</div><div class="tl">women over 40</div></div>
+    <div class="tbox"><div class="tv">60-day</div><div class="tl">money-back guarantee</div></div>
+  </div>
+
+  <hr>
+
+  <!-- ── FAQ ── -->
+  <h2>Frequently Asked Questions</h2>
+
+  <div class="faq">
+    <div class="faq-q">Why is weight loss so much harder after 40?</div>
+    <div class="faq-a">Three things converge: estrogen decline shifts fat to the belly, muscle loss slows metabolism, and rising cortisol stores fat and blocks every effort. A strategy designed for your hormones produces results. <a href="https://c2e1b6kyw26h873-kgyq-40iza.hop.clickbank.net" rel="nofollow sponsored" target="_blank" style="color:var(--accent)">See the right approach →</a></div>
+  </div>
+  <div class="faq">
+    <div class="faq-q">What makes CitrusBurn Pro different from other supplements?</div>
+    <div class="faq-a">It's formulated specifically for women's biology post-40 — citrus bioflavonoids, EGCG, and hormone-compatible botanicals at therapeutic doses. Fully transparent label. No proprietary blends. No high-dose stimulants.</div>
+  </div>
+  <div class="faq">
+    <div class="faq-q">Does the morning citrus drink actually work?</div>
+    <div class="faq-a">Yes — and it's a powerful daily habit. But food-based citrus can't match the concentration of CitrusBurn Pro. Combining both is what produces the results women are reporting.</div>
+  </div>
+  <div class="faq">
+    <div class="faq-q">How long until I see real results?</div>
+    <div class="faq-a">Energy improvements typically appear by week 3. Visible physical changes by weeks 5–6. The most dramatic transformations happen at the full 8 weeks. Don't stop before the compound effect arrives.</div>
+  </div>
+  <div class="faq">
+    <div class="faq-q">Is there a money-back guarantee?</div>
+    <div class="faq-a">Yes — 60 days, no questions asked. If you don't see results for any reason, contact support for a full refund. You risk absolutely nothing.</div>
+  </div>
+  <div class="faq">
+    <div class="faq-q">Is CitrusBurn Pro safe for women over 40?</div>
+    <div class="faq-a">Natural, non-stimulant citrus formulations are generally well-tolerated and chosen specifically for compatibility with hormonal changes after 40. No aggressive stimulants. Always consult your doctor if you have existing health conditions.</div>
+  </div>
+
+  <!-- ── FINAL CTA ── -->
+  <div class="cta-block" style="margin-top:2rem">
+    <div class="cb-lbl">The bottom line</div>
+    <div class="pbadge" style="margin:0 auto 1rem">
+      <span class="pn">CitrusBurn Pro</span>
+      <span class="ps">★★★★★</span>
+      <span class="pc">4.8 · 3,240 reviews</span>
+    </div>
+    <p>Linda lost 6kg. Jennifer lost 4.5kg. Rachel lost 5kg. Not through heroic effort — through finally working <em>with</em> their biology. You can too.</p>
+    <a href="https://c2e1b6kyw26h873-kgyq-40iza.hop.clickbank.net" rel="nofollow sponsored" target="_blank" class="cta block">Yes! I Want to Try CitrusBurn Pro Risk-Free →</a>
+    <p class="sub"><span class="ck">✓</span> 60-day guarantee &nbsp;<span class="ck">✓</span> Free shipping &nbsp;<span class="ck">✓</span> $1.63/day</p>
+  </div>
+
+  <p class="disclaimer">This article contains affiliate links — I may earn a commission if you purchase, at no extra cost to you. Results shown are from individual users and are not guaranteed. Always consult a healthcare professional before starting any supplement program.</p>
+
+</div>
+
+<!-- ── STICKY MOBILE CTA ── -->
+<div class="sticky-cta">
+  <a href="https://c2e1b6kyw26h873-kgyq-40iza.hop.clickbank.net" rel="nofollow sponsored" target="_blank" class="cta block" style="margin:0">Yes! Try CitrusBurn Pro Risk-Free — Save $40 →</a>
+</div>
+
+
+<script>
+// ── Countdown ──
+function updateCD(){
+  var now=new Date(),end=new Date(now);
+  end.setHours(23,59,59,0);
+  var d=end-now;
+  var h=String(Math.floor(d/3600000)).padStart(2,'0');
+  var m=String(Math.floor((d%3600000)/60000)).padStart(2,'0');
+  var s=String(Math.floor((d%60000)/1000)).padStart(2,'0');
+  var el=document.getElementById('cd');
+  if(el) el.textContent=h+':'+m+':'+s;
+}
+updateCD();
+setInterval(updateCD,1000);
+
+// ── FAQ accordion ──
+document.querySelectorAll('.faq').forEach(function(f){
+  f.addEventListener('click',function(){
+    var o=this.classList.contains('open');
+    document.querySelectorAll('.faq').forEach(function(x){x.classList.remove('open')});
+    if(!o) this.classList.add('open');
+  });
+});
+
+// ── Exit Intent Popup ──
+function closePopup(){
+  document.getElementById('exit-popup').style.display='none';
+  document.body.style.overflow='';
+}
+document.getElementById('exit-popup').addEventListener('click',function(e){
+  if(e.target===this) closePopup();
+});
+var popupShown=false;
+function showExitPopup(){
+  if(!popupShown){
+    popupShown=true;
+    document.getElementById('exit-popup').style.display='flex';
+    document.body.style.overflow='hidden';
+  }
+}
+// Desktop: mouse leaves upward
+document.addEventListener('mouseleave',function(e){
+  if(e.clientY<50) showExitPopup();
+});
+// Mobile: scroll down 60% then scroll back up fast
+var lastScroll=0,maxScroll=0;
+window.addEventListener('scroll',function(){
+  var cur=window.scrollY;
+  maxScroll=Math.max(maxScroll,cur);
+  var pageH=document.body.scrollHeight-window.innerHeight;
+  if(maxScroll>pageH*0.6 && cur<lastScroll-150 && cur<pageH*0.3) showExitPopup();
+  lastScroll=cur;
+});
+</script>
+
+</body>
+</html>
